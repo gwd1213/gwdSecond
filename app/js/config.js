@@ -1,0 +1,28 @@
+require.config({
+	baseUrl:"/",
+	paths:{
+		"jquery":"libs/jquery-1.12.4",
+		"banner":"module/banner",
+		"header":"module/header",
+		"footer":"module/footer",
+		"aside":"module/aside",
+		"register":"module/register"
+	},
+	shim:{
+		banner:{
+			deps:["jquery"]
+		},
+		header:{
+			deps:["jquery"]
+		},
+		footer:{
+			deps:["jquery"]
+		},
+		aside:{
+			deps:["jquery"]
+		},
+		register:{
+			deps:["jquery"]
+		}
+	}
+})

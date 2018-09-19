@@ -1,0 +1,121 @@
+*{font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #666;
+    font-family: Arial,Microsoft YaHei,sans-serif;}
+body{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1920px;
+    background: #fff;
+    min-width:1240px;
+}
+input {
+    background: #fff;
+}
+li{list-style-type: none;}
+a{text-decoration: none;cursor: pointer;}
+p{line-height: 21px;}
+
+.wrap{
+    width: 1240px;
+    margin: 0 auto;
+}
+header{
+    border-bottom: 1px solid #f2f2f2;
+    overflow: hidden;
+    .logo{
+        float: left;
+        width: 254px;
+        height: 33px;
+       margin: 14px 0;
+        background: url("/imgs/logo.png") no-repeat center center;
+    }
+    .welcome{
+        float: left;
+        font-size: 24px;
+        height: 33px;
+        line-height: 33px;
+        margin: 14px 0 0 20px;
+        padding-left: 17px;
+        border-left: 1px solid #ddd;
+    }
+}
+main{
+    form{
+        margin-left: 250px;
+        padding-top: 99px;
+        padding-bottom: 225px;
+        &>div{
+            overflow: hidden;
+            margin-bottom: 16px;
+            line-height: 40px;
+            i{
+                float: left;
+                width: 99px;
+                text-align: right;
+                font-style: normal;
+                line-height: 40px;
+            }
+            p{
+                float: left;
+                height: 38px;
+                line-height: 38px;
+                margin-right: 8px;
+                border: 1px solid #ddd;
+                padding-left: 38px;
+                margin-bottom: 12px;
+                input{
+                    width: 249px;
+                    height: 38px;
+                    line-height: 38px;
+                    text-indent: 8px;
+                    border-left: 1px solid #ddd;
+                }
+            }
+            .reg_p1{background: url(/imgs/reg_icon.png) no-repeat 0 0;}
+            .reg_p2{background: url(/imgs/reg_icon.png) no-repeat 0 -69px;}
+            span{
+                float: left;
+                color: #f33c11;
+                line-height: 40px;
+            }
+            
+        }
+        .reg_ok{
+            i{height: 20px;}
+            label{
+                display: inline-block;
+                line-height: 20px;
+                cursor: pointer;
+                float: left;
+                vertical-align: top;
+            }
+            a{
+                float: left;
+                height: 20px;
+                line-height: 20px;
+            }
+        }
+        .reg_btn{
+            width: 290px;
+            height: 34px;
+            line-height: 34px;
+            background: #f33c11;
+            font-size: 18px;
+            color: #fff;
+            border-radius: 4px;
+            float: left;
+        }
+        #tipsinfo{
+            float: left;
+            color: red;
+            font-size: 16px;
+            height: 38px;
+            line-height: 38px;
+            margin-right: 8px;
+            border: none;
+        }
+    }
+}

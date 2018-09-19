@@ -1,0 +1,212 @@
+.wrap{
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+.head_top{
+    height: 36px;
+    background: #f4f4f4;
+    .follow_us{
+        float: left;
+        line-height: 36px;
+        color: #7f7f7f;
+        font-size: 12px;
+        span{
+            float: left;
+        };
+        a{
+            display: inline-block;
+            width: 24px;
+            height: 36px;
+            margin: 0 5px 0 10px;
+            float: left;
+        };
+        .icon_baidu{
+            background: url(/imgs/icon_baidu.png) no-repeat center center;
+        };
+        .icon_weibo{
+            background: url(/imgs/icon_weibo.png) no-repeat center center;
+        };
+        .icon_weixin{
+            background: url(/imgs/icon_wechat.png) no-repeat center center;
+        }
+    };
+    .head_top_link{
+        float: right;
+        font-size: 12px;
+        color: #7f7f7f;
+        line-height: 36px;
+        a{
+            color: #7f7f7f;
+            display: inline-block;
+            width: auto;
+            height: 36px;
+            margin: 0 10px;
+        }
+    }
+}
+.head_mian{
+    height: 110px;
+    .logo {
+       
+        float: left;
+        margin-top: 39px;
+        a{
+            display: block;
+            width: 254px;
+            height: 33px;
+            background: url(/imgs/logo.png);
+        }
+    };
+    .search{
+        width:412px;
+        margin-left: 140px;
+        float: left;
+        width: auto;
+        margin-top: 28px;
+        text-align: left;
+        color: #999;
+        vertical-align: top;
+        .txt_search{
+            width: 364px;
+            height: 38px;
+            line-height: 38px;
+            border: 1px solid #ccc;
+            text-indent: 8px;
+            font-size: 12px;
+            border-right: 0;
+            vertical-align: top;
+        }
+        .btn_search{
+            width: 40px;
+            height: 40px;
+            border: 1px solid #ccc;
+            margin-left: -3px;
+            background: url("/imgs/search.png") no-repeat center;
+        }
+        .keyword{
+            a{color: #999;}
+        }
+    }
+    .shop_car{
+        float: left;
+        margin-top: 28px;
+        margin-left: 8px;
+        width: 138px;
+        height: 38px;
+        border: 1px solid #ccc;
+        a{
+            display: block;
+            padding-left: 44px;
+            color: #666;
+            font-size: 16px;
+            line-height: 38px;
+            background: url("/imgs/shop_car.png") no-repeat 7px center;
+        }
+        span{
+            display: inline-block;
+            float: right;
+            color: #d61818;
+            font-size: 16px;
+            width: 34px;
+            height: 23px;
+            line-height: 23px;
+            text-align: center;
+            margin-top: 7px;
+            border-left: 1px solid #ccc;
+        }
+    }
+}
+.head_nav{
+    height: 45px;
+    background: #d61818;
+    text-align: center;
+    &>.wrap>ul{
+        &>li{
+            float: left;
+            height: 45px; 
+            &>a{
+                display: block;
+                font-size: 18px;
+                font-weight: bold;
+                line-height: 45px;
+                padding: 0 35px 0 36px;
+                color: #fff;
+            }
+            &:hover{background: #f33c11;}  
+        }
+        .to_all_nav{
+            width: 252px;
+            background: #f33c11;
+            position: relative;
+            &:hover{
+                .all_nav{display: block;}
+            }
+        }
+    }
+}
+.all_nav{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 45px;
+    width: 252px;
+    height: 500px;
+    background: #f33c11;
+    z-index: 11;
+    li.all_nav_drop{
+        height: 63px;
+        line-height: 63px;
+        width: 100%;
+        &>a{
+            color: #fff;
+            font-size: 18px;
+        }
+        &:hover{
+            background: white;
+            &>a{color: #f33c11;}
+            ul{display: block;}
+        }
+        ul{
+            display: none;
+            position: absolute;
+            left: 100%;
+            top: 0;
+            width: 976px;
+            height: 480px;
+            padding: 20px 0 0 5px;
+            background: #fff;
+            text-align: center;
+            li{
+                float: left;
+                margin: 0 5px;
+                width: 150px;
+                .all_nav_img{
+                    display: inline-block;
+                    width: 148px;
+                    height: 148px;
+                    border: 1px solid #ccc;
+                    margin: 0 auto 2px;
+                    background: url(/imgs/20150715071520180.png) no-repeat center center;
+                }
+                h2{
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: normal;
+                    height: 35px;
+                    line-height: 35px;
+                    background: #415695;
+                }
+                h3{
+                    font-size: 18px;
+                    height: 48px;
+                    line-height: 48px;
+                }
+                p{
+                    height: 30px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}

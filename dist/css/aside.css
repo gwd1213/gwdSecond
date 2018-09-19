@@ -1,0 +1,27 @@
+.fix_robot a {
+  width: 45px;
+  height: 45px;
+  display: block;
+  position: fixed;
+  right: 0px;
+  top: 50%;
+  border-radius: 50%;
+  margin-top: -50px;
+  background: url(/imgs/xiaoneng.png) no-repeat center center #666;
+  background-size: 85%; }
+
+.fix_kefu {
+  width: auto;
+  background-color: #ff8308;
+  text-align: center;
+  position: fixed;
+  bottom: 200px;
+  right: 0; }
+  .fix_kefu a {
+    background: url(/imgs/ty_icon1.png) no-repeat center 10px;
+    background-size: 20px 20px;
+    display: block;
+    width: 18px;
+    padding: 0 10px 10px 10px;
+    padding-top: 30px;
+    text-align: center; }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/register.css"/>
+		<script src="/libs/require.js" data-main = "/js/register.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="wrap">
+				<a href="/index.html" class="logo"></a>
+				<p class="welcome">欢迎注册</p>
+			</div>
+		</header>
+		<main>
+			<div class="wrap">
+				<form action="" method="post">
+					<div>
+						<i>用户名：</i>
+						<p class="reg_p1">
+							<input type="text" id="txtUser" placeholder="请输入你的手机号或邮箱"/>
+						</p>
+						<span>* 请用邮箱或手机号</span>
+					</div>
+					<div>
+						<i>请设置密码：</i>
+						<p class="reg_p2">
+							<input type="text" id="txtPsd1" placeholder="请输入密码"/>
+						</p>
+						<span>* 6-20位字符，建议由字母，数字和符号两种以上组合</span>
+					</div>
+					<div>
+						<i>请确认密码：</i>
+						<p class="reg_p2">
+							<input type="text" id="txtPsd2" placeholder="请确认密码"/>
+						</p>
+						<span>* 请再次输入密码</span>
+					</div>
+					<!--<div>
+						<i>验证码：</i>
+					</div>-->
+					<div class="reg_ok">
+						<i>&nbsp;</i>
+						<label for="">
+							<input type="checkbox" name="" id="" value="" />
+							我已阅读并同意
+						</label>
+						<a href="" style="color: #f33c11;">《神舟用户注册协议》</a>
+					</div>
+					<div>
+						<i>&nbsp;</i>
+						<input type="button" name="" value="注册" class="reg_btn"/>
+					</div>
+					<div>
+						<i>&nbsp;</i>
+						<p id="tipsinfo"></p>
+					</div>
+				</form>
+			</div>
+		</main>
+	</body>
+</html>
